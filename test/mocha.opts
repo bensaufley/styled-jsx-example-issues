@@ -1,4 +1,4 @@
---require babel-register
+--require ts-node/register
 --require jsdom-global/register
 --require test/support/setup.js
-test/**/*.test.{js,jsx}
+test/**/*.test.{ts,tsx}

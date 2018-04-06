@@ -1,4 +1,4 @@
-import react from 'react';
+import * as react from 'react';
 
 import styles from './styles';
 
@@ -7,4 +7,4 @@ export default () => (
     Test
     <style jsx>{styles}</style>
   </h1>
-)
+);
