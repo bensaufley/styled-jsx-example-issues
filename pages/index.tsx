@@ -1,5 +1,3 @@
-import * as react from 'react';
-
 import styles from './styles';
 
 export default () => (
