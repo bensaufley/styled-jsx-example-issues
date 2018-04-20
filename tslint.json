@@ -1,10 +1,13 @@
 {
     "defaultSeverity": "error",
     "extends": [
-        "tslint:recommended"
+        "tslint:recommended",
+        "tslint-react",
+        "tslint-no-unused-expression-chai"
     ],
     "jsRules": {},
     "rules": {
+        "jsx-boolean-value": [true, "never"],
         "quotemark": [true, "single"]
     },
     "rulesDirectory": []
